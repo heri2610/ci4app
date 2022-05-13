@@ -1,0 +1,16 @@
+.sampul {
+  width: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+}
