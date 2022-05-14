@@ -13,7 +13,7 @@ class OrangModel extends Model
         // $builder = $this->table('orang');
         // $builder->like('nama', $keyword);
         // return $builder;
-        return $this->table('orang')->like('nama', $keyword)orike('alamat', $keyword);
+        return $this->table('orang')->like('nama', $keyword)->orLike('alamat', $keyword);
     
     }
 }
